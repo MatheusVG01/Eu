@@ -12,31 +12,74 @@ color: white;
 width: 100%;
 padding: 20px;
 }
-.cabecalho-itens{
-max-width: 1980px;
-margin: 0 auto;
-display: flex;
-align-items: center;
-justify-content: center;
+/* Importação de fonte estilo barbearia moderna (robusta e marcante) */
+@import url('https://googleapis.com');
+
+/* Configuração do Header com fundo escuro e detalhes dourados */
+.cabecalho-itens {
+    max-width: 1980px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #111111; /* Cor escura moderna */
+    padding: 20px 40px;
+    border-bottom: 3px solid #d4af37; /* Linha dourada estilo barbearia */
+    box-sizing: border-box;
 }
-.cabecalho-imagem{
-width: 10%;
-display: flex;
-justify-content: flex-start;
-align-items: center;
+
+/* Container da foto na esquerda */
+.container-foto {
+    width: 25%; /* Garante espaço para a foto ser grande */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
-.titulo_site{
-padding: 50px;
-text-align: center;
-width: 50%;
-font: 30px;
+
+/* Foto estilizada: maior, circular e com borda */
+.cabecalho_imagem {
+    width: 150px; /* Tamanho expandido da foto */
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%; /* Foto redonda moderna */
+    border: 3px solid #d4af37; /* Borda dourada */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
 }
-.sociais{
-display: flex;
-justify-content: flex-end;
-width: 25%;
-padding-right: 30px;
+
+/* Título centralizado com tipografia de barbearia */
+.titulo_site {
+    width: 50%;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 42px; /* Fonte imponente */
+    font-weight: 700;
+    text-transform: uppercase; /* Letras maiúsculas */
+    letter-spacing: 2px; /* Espaçamento moderno entre letras */
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
+
+/* Área dos ícones na direita */
+.sociais {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 25%;
+    gap: 20px; /* Espaçamento entre os ícones */
+}
+
+/* Efeito moderno de rotação e zoom nos ícones sociais */
+.link-social img {
+    width: 40px; /* Tamanho padronizado dos logos */
+    height: auto;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.link-social img:hover {
+    transform: scale(1.15) rotate(5deg); /* Efeito ao passar o mouse */
+    filter: brightness(1.2);
+}
+
 .banner1{
 display: flex;
 justify-content: center;
