@@ -102,7 +102,7 @@ width: 38px;
 padding: 4px 8px;
 }
 .estudante{
-background-image: background-color(#faae43);
+background-image: background-color(#ffe600);
 padding: 24px 0;
 }
 
@@ -134,7 +134,7 @@ padding: 12px 0;
 }
 
 .link{
-color: #ffffff;
+color: #1100ff;
 text-decoration: none;
 }
 
@@ -156,7 +156,7 @@ ul li {
 
 ul li a {
   display: block;
-  color: white;
+  color: rgb(0, 238, 255);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
