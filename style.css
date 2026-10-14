@@ -148,7 +148,7 @@ text-decoration: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #d4af37;
+  background-color: #000000;
 }
 
 ul li {
@@ -157,13 +157,13 @@ ul li {
 
 ul li a {
   display: block;
-  color: #d4af37;
+  color: #000000;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 ul li a:hover {
-  background-color: #d4af37;
+  background-color: #000000;
 }
 
