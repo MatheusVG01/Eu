@@ -157,13 +157,13 @@ ul li {
 
 ul li a {
   display: block;
-  color: #000000;
+  color: #ffffff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 ul li a:hover {
-  background-color: #000000;
+  background-color:#33322a;
 }
 
