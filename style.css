@@ -5,11 +5,11 @@ box-sizing: border-box;
 }
 body{
 font-family: "Poppins", sans-serif;
-background-color: #ffee00
+background-color: #d4af37
 }
 header{
 background-color: #ff0000;
-color: rgb(255, 230, 0);
+color: #d4af37;
 width: 100%;
 padding: 20px;
 }
