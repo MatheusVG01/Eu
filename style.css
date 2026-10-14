@@ -103,7 +103,7 @@ width: 38px;
 padding: 4px 8px;
 }
 .estudante{
-background-image: background-color(#ffe600);
+background-image: background-color(#d4af37);
 padding: 24px 0;
 }
 
@@ -117,7 +117,7 @@ justify-content: space-around;
 }
 .escola{
 background-image: linear-gradient(#d4af37);
-color: rgb(255, 0, 0);
+color: #d4af37;
 display: flex;
 justify-content:center;
 padding: 24px 0;
@@ -135,7 +135,7 @@ padding: 12px 0;
 }
 
 .link{
-color: #1100ff;
+color: #d4af37;
 text-decoration: none;
 }
 
@@ -148,7 +148,7 @@ text-decoration: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-color: #d4af37;
 }
 
 ul li {
@@ -164,6 +164,6 @@ ul li a {
 }
 
 ul li a:hover {
-  background-color: #0011ff;
+  background-color: #d4af37;
 }
 
