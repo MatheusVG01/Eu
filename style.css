@@ -116,7 +116,7 @@ display: flex;
 justify-content: space-around;
 }
 .escola{
-background-image: linear-gradient(#d4af37);
+background-image: linear-gradient;
 color: #d4af37;
 display: flex;
 justify-content:center;
@@ -157,7 +157,7 @@ ul li {
 
 ul li a {
   display: block;
-  color: #d4af37(0, 238, 255);
+  color: #d4af37;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
